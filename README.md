@@ -1,4 +1,4 @@
-# LA County Zip Code Analysis Dashboard
+# S_CA_ZIP - LA County Zip Code Analysis Dashboard
 
 A comprehensive Streamlit dashboard for visualizing and analyzing Los Angeles County zip code data, including composite scores, economic metrics, and demographic information.
 
@@ -38,4 +38,3 @@ The dashboard will open in your default web browser at `http://localhost:8501`
 ## Data
 
 The dashboard reads from `LA_County_Analysis_Final_with_Scores.csv` which should be in the same directory as `app.py`.
-
