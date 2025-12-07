@@ -457,7 +457,9 @@ with tab5:
                 title="LA County Zip Codes on California Map",
                 zoom=8,
                 height=700,
-                color_discrete_sequence=px.colors.qualitative.Set3
+                color_discrete_sequence=px.colors.qualitative.Set3,
+                size_max=20,
+                opacity=0.7
             )
         else:
             # Use continuous colors for numeric values
@@ -481,7 +483,9 @@ with tab5:
                 zoom=8,
                 height=700,
                 color_continuous_scale='Viridis',
-                labels={map_color_by: map_color_by.replace('_', ' ').title()}
+                labels={map_color_by: map_color_by.replace('_', ' ').title()},
+                size_max=20,
+                opacity=0.7
             )
         
         # Update map layout
@@ -493,16 +497,6 @@ with tab5:
             ),
             margin=dict(l=0, r=0, t=30, b=0),
             hovermode='closest'
-        )
-        
-        # Update marker appearance
-        fig_map.update_traces(
-            marker=dict(
-                sizemin=5,
-                sizemode='diameter',
-                opacity=0.7,
-                line=dict(width=1, color='white')
-            )
         )
         
         st.plotly_chart(fig_map, use_container_width=True)
