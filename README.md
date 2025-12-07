@@ -9,6 +9,7 @@ A comprehensive Streamlit dashboard for visualizing and analyzing Los Angeles Co
 - **Score Analysis**: Component scores, correlations, and relationships
 - **Economic Metrics**: Income and home value analysis
 - **Demographics**: Population, density, transit, and education metrics
+- **Interactive Map**: California map with zip code markers, customizable by various metrics
 - **Data Table**: Searchable and filterable data table with export functionality
 
 ## Installation
@@ -33,7 +34,8 @@ The dashboard will open in your default web browser at `http://localhost:8501`
 2. **Score Analysis**: Detailed analysis of composite and component scores
 3. **Economic Metrics**: Income and home value visualizations
 4. **Demographics**: Population, density, transit, and education metrics
-5. **Data Table**: Interactive table with search and export capabilities
+5. **Interactive Map**: California map showing zip codes with customizable markers (color and size by various metrics)
+6. **Data Table**: Interactive table with search and export capabilities
 
 ## Data
 
